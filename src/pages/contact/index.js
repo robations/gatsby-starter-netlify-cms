@@ -1,6 +1,6 @@
 import React from "react";
-import { navigate } from "gatsby-link";
-import Layout from '../../components/Layout'
+import { navigate } from "gatsby";
+import Layout from "../../components/Layout"
 
 function encode(data) {
   return Object.keys(data)
